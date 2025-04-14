@@ -1,3 +1,4 @@
+-- File: setup_listings.sql
 -- Purpose: Create SQLite database schema for storing real estate listings
 
 CREATE TABLE IF NOT EXISTS Listings (
