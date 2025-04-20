@@ -6,7 +6,7 @@
 import sqlite3
 import json
 from datetime import datetime
-from pyrealtor.realtor import Realtor
+import pyRealtor  # Direct import of pyRealtor
 
 def init_database():
     """Initialize SQLite database using setup_listings.sql."""
@@ -24,8 +24,8 @@ def init_database():
 def fetch_listings(city, state, max_price=500000, min_bedrooms=2):
     """Fetch real estate listings using pyRealtor."""
     try:
-        # Initialize pyRealtor with your API key
-        realtor = Realtor(api_key="YOUR_REALTOR_API_KEY")  # Replace with your Realtor API key
+        # Initialize pyRealtor without API key
+        realtor = pyRealtor.Realtor()  # Assumes pyRealtor handles authentication internally
         
         # Fetch listings for the given city and state
         listings = realtor.search_properties(
