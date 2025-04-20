@@ -1,4 +1,4 @@
-# Author: [Your Name]
+# Author: Rishabh
 # Date: April 14, 2025
 # Description: Fetches real estate listings using pyRealtor, saves them to a SQLite database,
 #              and allows retrieval of saved listings.
