@@ -1,5 +1,5 @@
 # BeginnerBuyers
-To help first time home buyers to begin the process
+
 Below is a README file for the Python program designed to help first-time homebuyers create and manage their homebuying list.
 
 First-Time Homebuyer List Creator
